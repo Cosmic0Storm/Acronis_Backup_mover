@@ -20,7 +20,6 @@ public class Main extends Application{
     public static Label  lb2;
 
     public static void main(String[] args) {
-        Config C=new Config();
         Schedule s =new Schedule(Config.getPfad(),Config.getTarget());
         Log.w("Start Application");
         launch(args);
